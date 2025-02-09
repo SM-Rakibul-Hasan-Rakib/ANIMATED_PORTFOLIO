@@ -45,7 +45,26 @@ header {
   width: 40px;
   margin: 0 15px;
 }
+header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  padding: 15px 15px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 69, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px #727fde65;
+}
 
+header ul li {
+  list-style: none;
+}
+header ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  margin: 0 10px;
+}
 @media (min-aspect-ratio: 16/9) {
   .back-vid {
     width: 100%;
