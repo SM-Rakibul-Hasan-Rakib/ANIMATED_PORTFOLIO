@@ -175,3 +175,36 @@ header ul a {
     height: auto;
   }
 }
+
+.hero-vid-box {
+  position: absolute;
+  right: 3%;
+}
+.hero-vid-box video {
+  height: 900px;
+}
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  border: 2px solid lightgray;
+  position: absolute;
+  left: 49%;
+  bottom: 8%;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0- 15px rgba(211, 211, 211, 0.477);
+}
+.scroll-down ::before,
+.scroll-down ::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  border: 2px solid lightgray;
+  transform: translate(-50%, 100%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 2s ease-in-out infinite;
+}
