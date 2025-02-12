@@ -265,6 +265,9 @@ header ul a {
   object-fit: cover;
 }
 card h1 {
-  position: relative;
+  position: absolute;
   margin: 0;
+  bottom: 40%;
+  left: 5%;
+  font-size: 25px;
 }
